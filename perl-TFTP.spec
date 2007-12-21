@@ -16,6 +16,7 @@ Group: 		Development/Perl
 Source: 	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{modprefix}/%{module}-%{version}.%{beta}.tar.bz2
 Url:		http://search.cpan.org/dist/%{module}/
 BuildArch:	noarch
+BuildRoot:	%{_tmppath}/%{name}-%{version}
 
 %description 
 TFTP is a class implementing a simple TFTP client in Perl as described
