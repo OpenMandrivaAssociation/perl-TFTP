@@ -5,7 +5,7 @@
 %define version 1
 %define beta 0b3
 
-%define release %mkrel 0.%{beta}.2
+%define release %mkrel 0.%{beta}.3
 
 Name: 		%{name}
 Version: 	%{version}
