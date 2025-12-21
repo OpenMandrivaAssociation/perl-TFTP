@@ -11,6 +11,7 @@ Group:		Development/Perl
 Source:		ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{modprefix}/%{module}-%{version}.%{beta}.tar.bz2
 Url:		https://search.cpan.org/dist/%{module}/
 
+BuildRequires:	make
 BuildRequires:	perl-devel
 BuildArch:	noarch
 
